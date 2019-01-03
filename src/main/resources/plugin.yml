@@ -1,20 +1,20 @@
-main: jp.jyn.byebyewither.ByeByeWither
-name: "${project.artifactId}"
+main: "jp.jyn.byebyewither.ByeByeWither"
+name: "ByeByeWither"
 version: "${project.version}"
-website: https://jyn.jp/bukkit_byebyewither/
-author: '@HimaJyun'
+website: "${project.url}"
+author: "HimaJyun( https://jyn.jp/ )"
+api-version: 1.13
 
 commands:
-   byebyewither:
-      description: '/byebyewither reload - Reload the plugin'
-   bbw:
-      description: 'Alias of "/bbw"'
+    byebyewither:
+        description: '/byebyewither reload - Reload the plugin'
+        aliases: bbw
 
 permissions:
-  byebyewither.*:
-    byebyewither.allowdragon: true
-    byebyewither.reload: true
-  byebyewither.allowdragon:
-    default: op
-  byebyewither.reload:
-    default: op
+    byebyewither.*:
+        byebyewither.allowdragon: true
+        byebyewither.reload: true
+    byebyewither.allowdragon:
+        default: op
+    byebyewither.reload:
+        default: op

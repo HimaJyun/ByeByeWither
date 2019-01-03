@@ -1,10 +1,10 @@
 Wither:
-  Enable: true
-  Allow:
-  - world_nether
-  - world_the_end
+    Enable: true
+    Allow:
+        - world_nether
+        - world_the_end
 
 EnderDragon:
-  Enable: true
-  Allow:
-  - world_the_end
+    Enable: true
+    Allow:
+        - world_the_end
